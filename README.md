@@ -29,6 +29,8 @@ Steps Involved in Lane detection!
 ![Screenshot (362)](https://user-images.githubusercontent.com/111170719/206979259-4e7b8ed1-2519-435c-8311-bc0015284009.png)
 
 
+
+
 **Testing our object detection model on IISc campus:**
 Input:
 
@@ -40,6 +42,8 @@ Output:
 
 Link to full Video:
 https://user-images.githubusercontent.com/111170719/206981021-ce4624af-9dc6-489a-b2ee-f48bda1bfbbc.mp4
+
+
 
 
 **Testing our object detection model on Random Delhi Highway YouTube video:**
@@ -56,6 +60,8 @@ Link to full Video:
 https://user-images.githubusercontent.com/111170719/206981339-523f87a6-8abb-4b60-9158-65f2e9872584.mp4
 
 
+
+
 **Testing our Lane detection and object detection model on Random sample video from YouTube:**
 
 Link to full Video:
@@ -65,4 +71,4 @@ Quantitative Evaluation:
 Plot of Loss Curve with Iterations-
 ![Screenshot 2022-12-12 131058](https://user-images.githubusercontent.com/111170719/206989000-481c5405-fefc-40eb-b5a3-4679bab9d500.jpg)
 
-***Due to limitation on GPU usage for training on Google colab the loss curve is discontinous in between***
+***NOTE: Due to limitation on GPU usage for training on Google colab the loss curve is discontinous in between***
