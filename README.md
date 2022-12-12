@@ -25,7 +25,7 @@ Steps Involved in Lane detection!
 ![street](https://user-images.githubusercontent.com/111170719/206979304-101d908e-83f3-4350-919d-fcf4911c17a4.jpg)
 
 
-**Object Detection through Custom trained YOLOv4
+**Object Detection through Custom trained YOLOv4**
 ![Screenshot (362)](https://user-images.githubusercontent.com/111170719/206979259-4e7b8ed1-2519-435c-8311-bc0015284009.png)
 
 
