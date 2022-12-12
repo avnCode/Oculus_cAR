@@ -1,5 +1,5 @@
-# M.Tech Digital Image Processing course work project(IISC)
-# Oculus_cAR 
+# M.Tech Digital Image Processing course work project(IISC) 
+# Project Title : Oculus_cAR 
 
 I have implemented the YOLOv4 algorithm to create custom trained weights for desired object detections(in our case Classes detected are: Car, Vehicle, Stop Signs, Person, Animals).
 and sliding window technique is merged to detect lanes.
