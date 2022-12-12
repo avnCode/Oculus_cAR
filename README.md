@@ -1,4 +1,3 @@
-# M.Tech Digital Image Processing course work project(IISC) 
 # Project : Oculus_cAR 
 
 I have implemented the YOLOv4 algorithm to create custom trained weights for desired object detections(in our case Classes detected are: Car, Vehicle, Stop Signs, Person, Animals).
