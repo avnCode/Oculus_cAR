@@ -30,9 +30,12 @@ Steps Involved in Lane detection!
 
 
 **Testing our object detection model on IISc campus:**
-Input:![ezgif-3-1a1ff08eff](https://user-images.githubusercontent.com/111170719/206987964-20dc75e9-9a4e-4221-aa8e-0c7f6b2bfdd4.gif)
+Input:
+
+![ezgif-3-1a1ff08eff](https://user-images.githubusercontent.com/111170719/206987964-20dc75e9-9a4e-4221-aa8e-0c7f6b2bfdd4.gif)
 
 Output:
+
 ![ezgif-3-d6eb98d887](https://user-images.githubusercontent.com/111170719/206984800-e4be559e-bd91-49ce-8f28-6cfa392046c9.gif)
 
 Link to full Video:
@@ -41,9 +44,11 @@ https://user-images.githubusercontent.com/111170719/206981021-ce4624af-9dc6-489a
 
 **Testing our object detection model on Random Delhi Highway YouTube video:**
 Input:
+
 ![test_gdrive_AdobeExpress (2)](https://user-images.githubusercontent.com/111170719/206983433-22e9c83c-df13-4b6a-99c2-568d7797ba1c.gif)
 
 Output:
+
 ![test_gdrive_AdobeExpress (4)](https://user-images.githubusercontent.com/111170719/206983842-c600a555-a17f-473b-928a-68f1726dda23.gif)
 
 Link to full Video:
