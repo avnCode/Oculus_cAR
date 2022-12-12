@@ -23,16 +23,38 @@ Steps Involved in Lane detection!
 
 **Input Image**
 ![street](https://user-images.githubusercontent.com/111170719/206979304-101d908e-83f3-4350-919d-fcf4911c17a4.jpg)
+
+
 **Object Detection through Custom trained YOLOv4
 ![Screenshot (362)](https://user-images.githubusercontent.com/111170719/206979259-4e7b8ed1-2519-435c-8311-bc0015284009.png)
 
 
-Testing our object detection model on IISc campus:
+**Testing our object detection model on IISc campus:**
+Input:![ezgif-3-1a1ff08eff](https://user-images.githubusercontent.com/111170719/206987964-20dc75e9-9a4e-4221-aa8e-0c7f6b2bfdd4.gif)
+
+Output:
+![ezgif-3-d6eb98d887](https://user-images.githubusercontent.com/111170719/206984800-e4be559e-bd91-49ce-8f28-6cfa392046c9.gif)
+
+Link to full Video:
 https://user-images.githubusercontent.com/111170719/206981021-ce4624af-9dc6-489a-b2ee-f48bda1bfbbc.mp4
 
-Testing our object detection model on Random Delhi Highway video:
+
+**Testing our object detection model on Random Delhi Highway YouTube video:**
+Input:
+![test_gdrive_AdobeExpress (2)](https://user-images.githubusercontent.com/111170719/206983433-22e9c83c-df13-4b6a-99c2-568d7797ba1c.gif)
+
+Output:
+![test_gdrive_AdobeExpress (4)](https://user-images.githubusercontent.com/111170719/206983842-c600a555-a17f-473b-928a-68f1726dda23.gif)
+
+Link to full Video:
 https://user-images.githubusercontent.com/111170719/206981339-523f87a6-8abb-4b60-9158-65f2e9872584.mp4
 
-Testing our Lane detection and object detection model on Random sample video from YouTube:
+
+**Testing our Lane detection and object detection model on Random sample video from YouTube:**
+Link to full Video:
 https://user-images.githubusercontent.com/111170719/206981713-f24840b8-fff4-4e2c-a71f-89946065f8de.mp4
 
+Quantitative Evaluation:
+Plot of Loss Curve with Iterations-
+![Screenshot 2022-12-12 131058](https://user-images.githubusercontent.com/111170719/206989000-481c5405-fefc-40eb-b5a3-4679bab9d500.jpg)
+***Due to limitation on GPU usage for training on Google colab the loss curve is discontinous in between***
