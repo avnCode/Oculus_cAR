@@ -43,6 +43,7 @@ https://user-images.githubusercontent.com/111170719/206981021-ce4624af-9dc6-489a
 
 
 **Testing our object detection model on Random Delhi Highway YouTube video:**
+
 Input:
 
 ![test_gdrive_AdobeExpress (2)](https://user-images.githubusercontent.com/111170719/206983433-22e9c83c-df13-4b6a-99c2-568d7797ba1c.gif)
@@ -56,10 +57,12 @@ https://user-images.githubusercontent.com/111170719/206981339-523f87a6-8abb-4b60
 
 
 **Testing our Lane detection and object detection model on Random sample video from YouTube:**
+
 Link to full Video:
 https://user-images.githubusercontent.com/111170719/206981713-f24840b8-fff4-4e2c-a71f-89946065f8de.mp4
 
 Quantitative Evaluation:
 Plot of Loss Curve with Iterations-
 ![Screenshot 2022-12-12 131058](https://user-images.githubusercontent.com/111170719/206989000-481c5405-fefc-40eb-b5a3-4679bab9d500.jpg)
+
 ***Due to limitation on GPU usage for training on Google colab the loss curve is discontinous in between***
