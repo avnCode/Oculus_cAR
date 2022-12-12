@@ -80,4 +80,4 @@ Plot of Loss Curve with Iterations-
 ***NOTE: Due to limitation on GPU usage for training on Google colab the loss curve is discontinous in between***
 
 FUTURE PLANS:
-THE MODEL IS WILL BE TRAINED ON MOTORCYCLE AND TRAFFIC SIGNAL DATASETS ALSO.
+THE MODEL WILL BE TRAINED ON MOTORCYCLE AND TRAFFIC SIGNAL DATASETS ALSO.
