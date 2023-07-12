@@ -3,8 +3,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 def prepocessing_img(frame):
-    # plt.imshow(frame)
-    # plt.show()
     frame=cv2.putText(frame,'Oculus cAR',(30,30), font, 0.6,(255,0,255),2,cv2.LINE_AA)
     hls = cv2.cvtColor(frame, cv2.COLOR_BGR2HLS)
     _, sxbinary = cv2.threshold(hls[:, :, 1], 120, 255, cv2.THRESH_BINARY)
@@ -105,7 +103,7 @@ def curve_fitting(warped_frame,histogram,reSized_frame):
         left_fitx = left_fit[0] * ploty ** 2 + left_fit[1] * ploty + left_fit[2]
         right_fitx = right_fit[0] * ploty ** 2 + right_fit[1] * ploty + right_fit[2]
     except Exception as e:
-        print(f"Error in curve fitting {e}")
+        print(f"Error in curve fitting: {e}")
     # Generate an image to visualize the result [BGR}
     out_img = np.dstack((frame_sliding_window, frame_sliding_window, frame_sliding_window)) * 255
 
@@ -182,7 +180,7 @@ def image_Lane_detector(filename):
 
 
 if __name__ == '__main__':
-    size = (360,360)
+    size = (350,350)
     _height, _width = size
     font = cv2.FONT_HERSHEY_SIMPLEX
 
@@ -195,7 +193,7 @@ if __name__ == '__main__':
     ])
 
     roi_points = np.float32([
-        (165, 230),  # Top-left corner
+        (160, 230),  # Top-left corner
         (30, 350),  # Bottom-left corner
         (320, 350),  # Bottom-right corner
         (240, 230)  # Top-right corner
